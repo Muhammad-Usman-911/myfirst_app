@@ -15,8 +15,10 @@ export default function InfoBox() {
       textAlign: 'center',
       padding: 20,
       width: 250,
-      borderBottomColor: 'white',
+      borderBottomColor: '#fb0283',
       borderBottomWidth: 2,
+      borderTopLeftRadius: 20,
+      borderTopRightRadius: 20,
     },
     infobox2: {
       backgroundColor: 'rgba(36, 114, 196, 1)',
@@ -24,6 +26,8 @@ export default function InfoBox() {
       textAlign: 'center',
       padding: 20,
       width: 250,
+      borderBottomLeftRadius: 20,
+      borderBottomRightRadius: 20,
     },
     cross: {
       position: 'absolute',
